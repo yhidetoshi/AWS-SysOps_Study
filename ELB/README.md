@@ -1,5 +1,8 @@
 # ELBについて
 
+- (参考)
+  - https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing
+
 - 負荷分散
   - バックエンドインスタンス
     - リクエスト数/コネクション数が均等になるように負荷分散
