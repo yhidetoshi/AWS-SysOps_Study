@@ -66,3 +66,18 @@
     - Management Consoleではインスタンスの表示が消える
     - ターゲットグループの状態が drainingに変化
     - API/SDK/CLIでは状況がわかる
+
+- アクセスログのs3保管
+  - ELBのアクセスログをs3に自動保管
+  - 項目
+    - timestamp
+    - elb_status_code
+    - backend_status_code
+    - target_status_code
+    - received_bytes
+    - sent_bytes
+    - request
+    - user_agent
+    - ssl_cipher
+    - ssl_protocol
+    
