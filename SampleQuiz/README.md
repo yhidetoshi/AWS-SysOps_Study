@@ -186,15 +186,15 @@
   - 加重ルーティング/レイテンシーベースルーティング
   - zone apexはRoute53のAliasレコードを使用する
   - エイリアスレコードはあるDNS名を別のAmazon Route53 DNS名にマッピングできる
-    - CloudFrontディストリビューション/Elasitc Beacnstalk/ELB/静的WebホスティングS3
-    - 有効期限(TTL)を設定できない
+    - CloudFrontディストリビューション/Elasitc Beacnstalk/ELB/静的WebホスティングS3
+    - 有効期限(TTL)を設定できない
   - CNAMEレコードはどこにでもホストされている任意のDNSレコードを指すことができる
-  - Route53のレコードセットはリージョンに依存しなく、グローバルで利用できる
+  - Route53のレコードセットはリージョンに依存しなく、グローバルで利用できる
 
 - 無料枠
-  - EC2: 750時間 t2.micro
-  - RDS: 750時間
-  - S3: 5GB
+  - EC2: 750時間 t2.micro
+  - RDS: 750時間
+  - S3: 5GB
 
 - AS
   - 終了保護をつけてASGのインスタンスの終了保護を防止できない
