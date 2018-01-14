@@ -1,5 +1,7 @@
 # s3について
 
+### (参考)　AWS Black Belt Online Seminar 2017 Amazon S3
+
 - ストレージクラス
   - スタンダード
   - STANDARD-IA(格納コストは安価だが、データのよみ出し容量に対して課金)
