@@ -1,7 +1,6 @@
 # RDSについて
 
-### (参考) AWS Black Belt Online Seminar 2017 Amazon Relational Database Service (Amazon RDS)
-
+### (参考) AWS Black Belt Online Seminar 2017 Amazon Relational Database Service 
 - Multi-AZ
   - アプリ側での対処の必要なし(endpointは変わらない)
   - スタンバイ状態のDBはアクセス不可
@@ -90,7 +89,7 @@
     - KMSで鍵管理が可能
     - リードレプリカも同じ鍵で暗号化される
     - インスタンス作成時にのみ設定可能
-      - スナップショットのコピーを暗号化してリストアすることは可能
+    - スナップショットのコピーを暗号化してリストアすることは可能
     - 暗号化された DBインスタンスを変更して暗号化を無効にすることはできない
     - 対応するインスタンスタイプ
       - db.m4 db.r3 db.t2.large
