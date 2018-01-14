@@ -1,5 +1,7 @@
 # RDSについて
 
+### (参考) AWS Black Belt Online Seminar 2017 Amazon Relational Database Service (Amazon RDS)
+
 - Multi-AZ
   - アプリ側での対処の必要なし(endpointは変わらない)
   - スタンバイ状態のDBはアクセス不可
@@ -64,6 +66,16 @@
   - メンテナンスは数ヶ月に１度(毎週からなずではない)
   - 指定した時間帯の数分間で実施
   - マルチAZにしておくことでダウンタイムを1-2分にすることが可能
+
+- 監視(CloudWatch)
+  - 各種メトリクスを60s間隔で取得可能
+  - 拡張モニタリング
+    - 50種類以上のOSメトリクス
+    - プロセス一覧
+    - 特定メトリクスアラーム
+    - Cloudwatch Logsへの出力
+    - 3rd partyツール連携
+
 
 - 各種制限
   - RDSインスタンス数: 40
