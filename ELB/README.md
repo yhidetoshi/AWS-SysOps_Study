@@ -1,7 +1,8 @@
 # ELBについて
 
-- (参考)
-  - https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing
+### (参考) AWS Black Belt Online Seminar 2016 Elastic Load Balancing
+
+- https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2016-elastic-load-balancing
 
 - 負荷分散
   - バックエンドインスタンス
